@@ -1,0 +1,12 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        ColorRamp : Textures/bomber_metal.jpg
+        GlowColor : 1.0 1.0 1.0 1.0
+        GlowMap : Textures/bomber_metal.jpg
+        DiffuseMap : Textures/metalbackground1.png
+        SpecularMap : Textures/bomber_metal.jpg
+        AlphaMap : Textures/bomber_metal.jpg
+     }
+    AdditionalRenderState {
+    }
+}

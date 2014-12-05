@@ -1,0 +1,157 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>edu.kodemat</groupId>
+  <artifactId>kodemat.collaboration3D</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Collaboration3D</name>
+  <url>http://maven.apache.org</url>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <repositories>
+        <!--These are needed for Swing/Netbeans -->
+  <repository>
+    <id>maven2-repository.netbeans.maven2</id>
+    <name>Netbeans Maven Repository</name>
+    <url>http://bits.netbeans.org/maven2/</url>
+    <layout>default</layout>
+  </repository> 
+      
+      
+<repository>
+      <id>jme3</id>
+      <name>jMonkeyDependencies</name>
+      <url>http://updates.jmonkeyengine.org/maven/</url>
+    </repository>
+    
+  <repository>
+         <id>gephi-snapshots</id>
+         <name>Gephi Snapshots</name>
+         <url>http://nexus.gephi.org/nexus/content/repositories/snapshots/</url>
+      </repository>
+      <repository>
+         <id>gephi-releases</id>
+         <name>Gephi Releases</name>
+         <url>http://nexus.gephi.org/nexus/content/repositories/releases/</url>
+      </repository>
+    
+   </repositories>
+
+  <dependencies>
+            
+<!--<dependency>
+  <groupId>kodemat.assets</groupId>
+        <artifactId>kodemat.assets</artifactId>
+        <version>1.0</version>
+        <scope>system</scope>
+<systemPath>${project.basedir}/assets.jar</systemPath>
+</dependency>-->
+
+
+      
+  <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.10</version>
+        <scope>test</scope>
+    </dependency>
+    
+        <dependency>
+         <groupId>org.gephi</groupId>
+         <artifactId>gephi-toolkit</artifactId>
+         <version>0.8.2</version>
+      </dependency>
+    
+    <dependency>
+    <groupId>com.hazelcast</groupId>
+    <artifactId>hazelcast</artifactId>
+    <version>3.3.3</version>
+</dependency>
+    <dependency>
+    <groupId>com.hazelcast</groupId>
+    <artifactId>hazelcast-client</artifactId>
+    <version>3.3.3</version>
+</dependency>
+
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>DataStructures</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    
+        <dependency>
+	<groupId>com.jme3</groupId>
+	<artifactId>jme3-core</artifactId>
+	<version>3.0.10</version>
+          </dependency>
+          <dependency>
+	<groupId>com.jme3</groupId>
+	<artifactId>jme3-desktop</artifactId>
+	<version>3.0.10</version>
+          </dependency>
+          <dependency>
+	<groupId>com.jme3</groupId>
+	<artifactId>jme3-lwjgl</artifactId>
+	<version>3.0.10</version>
+          </dependency>
+          
+<dependency>
+	<groupId>com.jme3</groupId>
+	<artifactId>jme3-networking</artifactId>
+	<version>3.0.10</version>
+          </dependency>
+          
+    <dependency>
+      <groupId>org.netbeans.external</groupId>
+      <artifactId>AbsoluteLayout</artifactId>
+      <version>RELEASE701</version>
+</dependency>
+
+   <dependency>
+	<groupId>com.jme3</groupId>
+	<artifactId>jme3-niftygui</artifactId>
+	<version>3.0.10</version>
+          </dependency>
+    <dependency>
+	<groupId>it.uniroma1.dis.wsngroup.gexf4j</groupId>
+	<artifactId>gexf4j</artifactId>
+	<version>0.4.3-BETA</version>
+</dependency>
+
+<dependency>
+	<groupId>com.miglayout</groupId>
+	<artifactId>miglayout</artifactId>
+	<version>3.5.5</version>
+</dependency>
+
+
+    <dependency>
+      <groupId>net.java.dev.glazedlists</groupId>
+      <artifactId>glazedlists_java15</artifactId>
+      <version>1.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.jme3</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>3.0.0.20120512-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,14 @@
+Material iPunkt_mat : Common/MatDefs/Misc/Unshaded.j3md {
+     MaterialParameters {
+        GlowColor : 1.0 0.2 0.2 1.0
+        Color : 1.0 1.0 1.0 1.0
+        SeparateTexCoord : false
+        VertexColor : false
+     }
+    AdditionalRenderState {
+      AlphaTestFalloff 0.9
+      Blend ModulateX2
+      DepthTest Off
+      DepthWrite Off
+    }
+}

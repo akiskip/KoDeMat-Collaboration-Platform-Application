@@ -1,0 +1,1 @@
+eventAssembler.childComponents.put(parentId, this);
