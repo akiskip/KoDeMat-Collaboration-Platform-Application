@@ -23,12 +23,15 @@ public class CameraDisplayAppstate extends AbstractAppState  {
     private Camera cam;
     private final String userId;
     private VisuComponent cameraNode;
+    private float timeCount  = 0l;
+    private float time =1f;
 
 
 
     public CameraDisplayAppstate(VisuHelper helper,String userID) {
         this.helper = helper;
         userId =userID;
+  createCamera(userId);
     }
     
 
@@ -36,18 +39,23 @@ public class CameraDisplayAppstate extends AbstractAppState  {
     public void initialize(AppStateManager stateManager, Application app) {
         super.initialize(stateManager, app);
     
-        createCamera(userId);
-        
       cam = app.getCamera();
-                
+               
     }
 
     
     
     @Override
     public void update(float tpf) {
-        VisuVector3f camPos = new VisuVector3f(cam.getLocation().x,cam.getLocation().y,cam.getLocation().z);
-//       helper.getComponent("camera").setTranslation(camPos);
+   
+     timeCount =timeCount+ tpf;
+
+if(timeCount>=time){
+     VisuVector3f camPos = new VisuVector3f(cam.getLocation().x,cam.getLocation().y,cam.getLocation().z);
+//       helper.getComponent("camera_"+ userId).setTranslation(camPos);
+      System.out.println("Camera pos x "+camPos.x+"y "+camPos.y);
+       timeCount= 0f;
+}
     }
 
     private void createCamera(String userId) {
