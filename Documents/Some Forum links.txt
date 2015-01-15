@@ -1,0 +1,12 @@
+Custom camera rects?
+
+https://forums.oculus.com/viewtopic.php?f=37&t=14543   
+
+
+DK2 Wiki
+
+http://wiki.etc.cmu.edu/unity3d/index.php/Oculus_Rift_DK2
+
+Oculus Rift Wiki
+
+http://wiki.etc.cmu.edu/unity3d/index.php/Oculus_Rift
