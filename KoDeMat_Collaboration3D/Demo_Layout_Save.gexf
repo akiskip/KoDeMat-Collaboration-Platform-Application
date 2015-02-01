@@ -1,0 +1,838 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+  <meta lastmodifieddate="2014-05-16">
+    <creator>KoDeMat.edu</creator>
+    <description>A test network for KoDeMat </description>
+  </meta>
+  <graph defaultedgetype="undirected" idtype="string" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="translation" type="string"/>
+      <attribute id="1" title="rotation" type="string"/>
+      <attribute id="2" title="scale" type="string"/>
+      <attribute id="3" title="type" type="string"/>
+      <attribute id="4" title="model" type="string"/>
+    </attributes>
+    <nodes count="82">
+      <node id="70" label="RF_part2.j3o_70">
+        <attvalues>
+          <attvalue for="0" value="-5.971039 , -1.3589859E-5 , -26.456194"/>
+          <attvalue for="1" value="0.0 , -90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part2.j3o"/>
+        </attvalues>
+        <viz:position x="-597.1039" y="-0.0013589859" z="-2645.6194"/>
+      </node>
+      <node id="17" label="regal_RBG.j3o_17">
+        <attvalues>
+          <attvalue for="0" value="-45.16472 , 9.536743E-6 , 15.036924"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-4516.4717" y="9.536743E-4" z="1503.6924"/>
+      </node>
+      <node id="74" label="RF_part1.j3o_74">
+        <attvalues>
+          <attvalue for="0" value="-3.2920637 , 1.7046928E-5 , -15.326731"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-329.20636" y="0.0017046928" z="-1532.6731"/>
+      </node>
+      <node id="26" label="RF_part1.j3o_26">
+        <attvalues>
+          <attvalue for="0" value="-34.70579 , -6.67572E-6 , -23.061565"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-3470.579" y="-6.67572E-4" z="-2306.1565"/>
+      </node>
+      <node id="75" label="RF_part1.j3o_75">
+        <attvalues>
+          <attvalue for="0" value="-3.2767067 , 1.41859055E-5 , -14.366251"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-327.67065" y="0.0014185905" z="-1436.6251"/>
+      </node>
+      <node id="24" label="RF_part2inv.j3o_24">
+        <attvalues>
+          <attvalue for="0" value="-39.13385 , 0.0024747849 , -22.399807"/>
+          <attvalue for="1" value="0.0 , -90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part2inv.j3o"/>
+        </attvalues>
+        <viz:position x="-3913.385" y="0.24747849" z="-2239.9807"/>
+      </node>
+      <node id="29" label="RF_part1.j3o_29">
+        <attvalues>
+          <attvalue for="0" value="-44.576916 , -1.04904175E-5 , -19.388363"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-4457.6914" y="-0.0010490417" z="-1938.8363"/>
+      </node>
+      <node id="31" label="RF_part1.j3o_31">
+        <attvalues>
+          <attvalue for="0" value="-14.162742 , -4.053116E-6 , -23.063095"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-1416.2742" y="-4.0531158E-4" z="-2306.3096"/>
+      </node>
+      <node id="66" label="RF_part1.j3o_66">
+        <attvalues>
+          <attvalue for="0" value="0.49333572 , 1.2755394E-5 , -19.94189"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="49.333572" y="0.0012755394" z="-1994.1891"/>
+      </node>
+      <node id="28" label="RF_part1.j3o_28">
+        <attvalues>
+          <attvalue for="0" value="-37.74243 , -5.722046E-6 , -23.063673"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-3774.2432" y="-5.722046E-4" z="-2306.3672"/>
+      </node>
+      <node id="64" label="RF_part1.j3o_64">
+        <attvalues>
+          <attvalue for="0" value="-6.786994 , 2.026558E-6 , -28.871061"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-678.6994" y="2.0265579E-4" z="-2887.1062"/>
+      </node>
+      <node id="36" label="RF_part3.j3o_36">
+        <attvalues>
+          <attvalue for="0" value="1.1091418 , 6.67572E-6 , -29.461576"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part3.j3o"/>
+        </attvalues>
+        <viz:position x="110.914185" y="6.67572E-4" z="-2946.1577"/>
+      </node>
+      <node id="76" label="RF_part1.j3o_76">
+        <attvalues>
+          <attvalue for="0" value="0.39798355 , 1.8000603E-5 , -18.85955"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="39.798355" y="0.0018000603" z="-1885.9551"/>
+      </node>
+      <node id="71" label="RF_part1.j3o_71">
+        <attvalues>
+          <attvalue for="0" value="0.49578094 , 4.887581E-6 , -23.466398"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="49.578094" y="4.887581E-4" z="-2346.64"/>
+      </node>
+      <node id="4" label="palette.j3o_4">
+        <attvalues>
+          <attvalue for="0" value="11.370804 , 1.5151806 , -26.547714"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Pallete/palette.j3o"/>
+        </attvalues>
+        <viz:position x="1137.0803" y="151.51807" z="-2654.7715"/>
+      </node>
+      <node id="38" label="RF_part1.j3o_38">
+        <attvalues>
+          <attvalue for="0" value="-28.14608 , -9.775162E-6 , -24.731966"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-2814.608" y="-9.775162E-4" z="-2473.1965"/>
+      </node>
+      <node id="65" label="RF_part4.j3o_65">
+        <attvalues>
+          <attvalue for="0" value="-6.1297674 , 4.7683716E-6 , -31.88625"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part4.j3o"/>
+        </attvalues>
+        <viz:position x="-612.97675" y="4.7683716E-4" z="-3188.625"/>
+      </node>
+      <node id="12" label="ehb.j3o_12">
+        <attvalues>
+          <attvalue for="0" value="2.5175343 , 0.0024929047 , -5.771001"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/EHB/ehb.j3o"/>
+        </attvalues>
+        <viz:position x="251.75342" y="0.24929047" z="-577.1001"/>
+      </node>
+      <node id="7" label="regal_RBG.j3o_7">
+        <attvalues>
+          <attvalue for="0" value="-40.351833 , 0.0 , -7.0331755"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-4035.1833" y="0.0" z="-703.31757"/>
+      </node>
+      <node id="1" label="RF_part1.j3o_1">
+        <attvalues>
+          <attvalue for="0" value="-22.062601 , -5.722046E-6 , -19.578503"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-2206.26" y="-5.722046E-4" z="-1957.8502"/>
+      </node>
+      <node id="69" label="RF_part1.j3o_69">
+        <attvalues>
+          <attvalue for="0" value="-3.1633844 , 1.6093254E-5 , -25.827326"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-316.33844" y="0.0016093254" z="-2582.7327"/>
+      </node>
+      <node id="54" label="stapler.j3o_54">
+        <attvalues>
+          <attvalue for="0" value="25.636135 , -0.019729614 , 2.340866"/>
+          <attvalue for="1" value="0.0 , 360.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Stapler/stapler.j3o"/>
+        </attvalues>
+        <viz:position x="2563.6135" y="-1.9729614" z="234.08661"/>
+      </node>
+      <node id="41" label="RF_part3inv.j3o_41">
+        <attvalues>
+          <attvalue for="0" value="-17.503122 , 9.536743E-7 , -24.092552"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part3inv.j3o"/>
+        </attvalues>
+        <viz:position x="-1750.3123" y="9.536743E-5" z="-2409.2551"/>
+      </node>
+      <node id="20" label="RF_part1.j3o_20">
+        <attvalues>
+          <attvalue for="0" value="-26.868208 , -2.861023E-6 , -19.519894"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-2686.8208" y="-2.861023E-4" z="-1951.9894"/>
+      </node>
+      <node id="58" label="palette.j3o_58">
+        <attvalues>
+          <attvalue for="0" value="15.218582 , 1.5151796 , -23.528313"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Pallete/palette.j3o"/>
+        </attvalues>
+        <viz:position x="1521.8582" y="151.51796" z="-2352.8313"/>
+      </node>
+      <node id="21" label="RF_part1.j3o_21">
+        <attvalues>
+          <attvalue for="0" value="-40.057808 , -1.04904175E-5 , -19.39027"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-4005.7808" y="-0.0010490417" z="-1939.027"/>
+      </node>
+      <node id="9" label="RBG.j3o_9">
+        <attvalues>
+          <attvalue for="0" value="-42.1615 , -9.536743E-6 , 0.22563934"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RBG/RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-4216.15" y="-9.536743E-4" z="22.563934"/>
+      </node>
+      <node id="46" label="RF_part1.j3o_46">
+        <attvalues>
+          <attvalue for="0" value="1.9900436 , -7.1525574E-7 , -25.175629"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="199.00436" y="-7.1525574E-5" z="-2517.563"/>
+      </node>
+      <node id="5" label="RBG.j3o_5">
+        <attvalues>
+          <attvalue for="0" value="-24.462727 , -1.5258789E-5 , 0.7150345"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RBG/RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-2446.2727" y="-0.0015258789" z="71.50345"/>
+      </node>
+      <node id="44" label="RF_part1.j3o_44">
+        <attvalues>
+          <attvalue for="0" value="-14.169769 , -2.6226044E-6 , -24.716276"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-1416.9769" y="-2.6226044E-4" z="-2471.6277"/>
+      </node>
+      <node id="61" label="RF_part2.j3o_61">
+        <attvalues>
+          <attvalue for="0" value="-7.4201393 , -1.3589859E-5 , -25.587008"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part2.j3o"/>
+        </attvalues>
+        <viz:position x="-742.0139" y="-0.0013589859" z="-2558.7007"/>
+      </node>
+      <node id="50" label="RF_pallete.j3o_50">
+        <attvalues>
+          <attvalue for="0" value="12.9186125 , 0.0024795532 , -17.804129"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Rollenfoerderer_pallete/RF_pallete.j3o"/>
+        </attvalues>
+        <viz:position x="1291.8612" y="0.24795532" z="-1780.4128"/>
+      </node>
+      <node id="63" label="RF_part1.j3o_63">
+        <attvalues>
+          <attvalue for="0" value="-6.8926353 , -8.34465E-7 , -19.00198"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-689.26355" y="-8.34465E-5" z="-1900.198"/>
+      </node>
+      <node id="77" label="RF_pallete.j3o_77">
+        <attvalues>
+          <attvalue for="0" value="-0.6127176 , 0.0024785995 , -4.6992044"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Rollenfoerderer_pallete/RF_pallete.j3o"/>
+        </attvalues>
+        <viz:position x="-61.271763" y="0.24785995" z="-469.92044"/>
+      </node>
+      <node id="81" label="palette.j3o_81">
+        <attvalues>
+          <attvalue for="0" value="15.0 , 0.16006708 , 33.74019"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Pallete/palette.j3o"/>
+        </attvalues>
+        <viz:position x="1500.0" y="16.006708" z="3374.0188"/>
+      </node>
+      <node id="0" label="boden.j3o_0">
+        <attvalues>
+          <attvalue for="0" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Boden/boden.j3o"/>
+        </attvalues>
+        <viz:position x="0.0" y="0.0" z="0.0"/>
+      </node>
+      <node id="19" label="regal_RBG.j3o_19">
+        <attvalues>
+          <attvalue for="0" value="-27.366362 , 1.1444092E-5 , -4.061261"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-2736.6362" y="0.0011444092" z="-406.12613"/>
+      </node>
+      <node id="45" label="RF_part1.j3o_45">
+        <attvalues>
+          <attvalue for="0" value="-10.428278 , -2.6226044E-6 , -24.69032"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-1042.8278" y="-2.6226044E-4" z="-2469.032"/>
+      </node>
+      <node id="3" label="palette.j3o_3">
+        <attvalues>
+          <attvalue for="0" value="16.077467 , 1.8438063 , -17.492176"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Pallete/palette.j3o"/>
+        </attvalues>
+        <viz:position x="1607.7467" y="184.38063" z="-1749.2177"/>
+      </node>
+      <node id="62" label="RF_part2inv.j3o_62">
+        <attvalues>
+          <attvalue for="0" value="-7.510151 , -3.8146973E-6 , -22.14432"/>
+          <attvalue for="1" value="-0.0 , -179.99998 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part2inv.j3o"/>
+        </attvalues>
+        <viz:position x="-751.0151" y="-3.8146973E-4" z="-2214.432"/>
+      </node>
+      <node id="39" label="RF_part1.j3o_39">
+        <attvalues>
+          <attvalue for="0" value="-37.468243 , -4.529953E-6 , -24.720882"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-3746.8242" y="-4.529953E-4" z="-2472.0881"/>
+      </node>
+      <node id="47" label="RF_part1.j3o_47">
+        <attvalues>
+          <attvalue for="0" value="1.968122 , -7.390976E-6 , -23.6229"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="196.8122" y="-7.390976E-4" z="-2362.29"/>
+      </node>
+      <node id="68" label="RF_part2.j3o_68">
+        <attvalues>
+          <attvalue for="0" value="-0.14082623 , -1.3589859E-5 , -26.719685"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part2.j3o"/>
+        </attvalues>
+        <viz:position x="-14.082623" y="-0.0013589859" z="-2671.9685"/>
+      </node>
+      <node id="8" label="regal_RBG.j3o_8">
+        <attvalues>
+          <attvalue for="0" value="-39.70254 , 9.536743E-6 , 15.242289"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-3970.2542" y="9.536743E-4" z="1524.2289"/>
+      </node>
+      <node id="11" label="regal_RBG.j3o_11">
+        <attvalues>
+          <attvalue for="0" value="-22.14879 , 7.6293945E-6 , 21.518322"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-2214.8792" y="7.6293945E-4" z="2151.8323"/>
+      </node>
+      <node id="23" label="RF_part2inv.j3o_23">
+        <attvalues>
+          <attvalue for="0" value="-21.17352 , 0.0024728775 , -22.445097"/>
+          <attvalue for="1" value="0.0 , -90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part2inv.j3o"/>
+        </attvalues>
+        <viz:position x="-2117.3518" y="0.24728775" z="-2244.5098"/>
+      </node>
+      <node id="43" label="RF_part1.j3o_43">
+        <attvalues>
+          <attvalue for="0" value="-20.648829 , -2.6226044E-6 , -24.721735"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-2064.8828" y="-2.6226044E-4" z="-2472.1736"/>
+      </node>
+      <node id="14" label="kuka_robot.j3o_14">
+        <attvalues>
+          <attvalue for="0" value="6.1209507 , 0.2930374 , -24.25179"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/KUKA_Robot/kuka_robot.j3o"/>
+        </attvalues>
+        <viz:position x="612.0951" y="29.303741" z="-2425.179"/>
+      </node>
+      <node id="2" label="RF_part2.j3o_2">
+        <attvalues>
+          <attvalue for="0" value="-27.739548 , -1.2397766E-5 , -22.474535"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part2.j3o"/>
+        </attvalues>
+        <viz:position x="-2773.9548" y="-0.0012397766" z="-2247.4536"/>
+      </node>
+      <node id="6" label="regal_RBG.j3o_6">
+        <attvalues>
+          <attvalue for="0" value="-39.616604 , -1.9073486E-5 , 22.414913"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-3961.6604" y="-0.0019073486" z="2241.4912"/>
+      </node>
+      <node id="37" label="RF_part3inv.j3o_37">
+        <attvalues>
+          <attvalue for="0" value="-44.46728 , -2.861023E-6 , -24.125721"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part3inv.j3o"/>
+        </attvalues>
+        <viz:position x="-4446.728" y="-2.861023E-4" z="-2412.572"/>
+      </node>
+      <node id="78" label="kuka_robot.j3o_78">
+        <attvalues>
+          <attvalue for="0" value="5.875223 , 0.0 , -19.532444"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/KUKA_Robot/kuka_robot.j3o"/>
+        </attvalues>
+        <viz:position x="587.52234" y="0.0" z="-1953.2444"/>
+      </node>
+      <node id="40" label="RF_part1.j3o_40">
+        <attvalues>
+          <attvalue for="0" value="-24.396286 , -2.6226044E-6 , -24.734789"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-2439.6287" y="-2.6226044E-4" z="-2473.479"/>
+      </node>
+      <node id="51" label="RF_pallete.j3o_51">
+        <attvalues>
+          <attvalue for="0" value="12.77272 , 0.0024785995 , -20.571394"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Rollenfoerderer_pallete/RF_pallete.j3o"/>
+        </attvalues>
+        <viz:position x="1277.272" y="0.24785995" z="-2057.1394"/>
+      </node>
+      <node id="49" label="RF_part1.j3o_49">
+        <attvalues>
+          <attvalue for="0" value="2.045061 , -7.1525574E-7 , -20.406107"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="204.5061" y="-7.1525574E-5" z="-2040.6107"/>
+      </node>
+      <node id="34" label="RF_part1.j3o_34">
+        <attvalues>
+          <attvalue for="0" value="-34.678104 , -8.821487E-6 , -24.707912"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-3467.8105" y="-8.8214874E-4" z="-2470.7913"/>
+      </node>
+      <node id="55" label="RF_part1.j3o_55">
+        <attvalues>
+          <attvalue for="0" value="-3.1366234 , -9.059906E-6 , -32.549038"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-313.66235" y="-9.059906E-4" z="-3254.9038"/>
+      </node>
+      <node id="15" label="regal_RBG.j3o_15">
+        <attvalues>
+          <attvalue for="0" value="-22.208735 , 3.8146973E-6 , 14.875042"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-2220.8735" y="3.8146973E-4" z="1487.5042"/>
+      </node>
+      <node id="48" label="RF_part1.j3o_48">
+        <attvalues>
+          <attvalue for="0" value="1.8963065 , -1.3113022E-5 , -18.992138"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="189.63065" y="-0.0013113022" z="-1899.2137"/>
+      </node>
+      <node id="53" label="palette.j3o_53">
+        <attvalues>
+          <attvalue for="0" value="9.604928 , 1.5151787 , -17.612864"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Pallete/palette.j3o"/>
+        </attvalues>
+        <viz:position x="960.4928" y="151.51787" z="-1761.2864"/>
+      </node>
+      <node id="42" label="RF_part3.j3o_42">
+        <attvalues>
+          <attvalue for="0" value="-31.349686 , -1.9073486E-6 , -24.079931"/>
+          <attvalue for="1" value="0.0 , -90.99996 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part3.j3o"/>
+        </attvalues>
+        <viz:position x="-3134.9685" y="-1.9073486E-4" z="-2407.9932"/>
+      </node>
+      <node id="52" label="regal_RBG.j3o_52">
+        <attvalues>
+          <attvalue for="0" value="-45.701057 , -7.6293945E-6 , -6.946042"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-4570.106" y="-7.6293945E-4" z="-694.6042"/>
+      </node>
+      <node id="13" label="RF_pallete.j3o_13">
+        <attvalues>
+          <attvalue for="0" value="12.778515 , 0.0024843216 , -26.703554"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Rollenfoerderer_pallete/RF_pallete.j3o"/>
+        </attvalues>
+        <viz:position x="1277.8514" y="0.24843216" z="-2670.3555"/>
+      </node>
+      <node id="25" label="RF_part2.j3o_25">
+        <attvalues>
+          <attvalue for="0" value="-45.480286 , -1.1444092E-5 , -22.41585"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part2.j3o"/>
+        </attvalues>
+        <viz:position x="-4548.0283" y="-0.0011444092" z="-2241.585"/>
+      </node>
+      <node id="32" label="RF_part1.j3o_32">
+        <attvalues>
+          <attvalue for="0" value="-10.495545 , -2.6226044E-6 , -23.055498"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-1049.5546" y="-2.6226044E-4" z="-2305.5498"/>
+      </node>
+      <node id="30" label="RF_part1.j3o_30">
+        <attvalues>
+          <attvalue for="0" value="-17.903103 , -4.053116E-6 , -23.078238"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-1790.3103" y="-4.0531158E-4" z="-2307.8237"/>
+      </node>
+      <node id="59" label="palette.j3o_59">
+        <attvalues>
+          <attvalue for="0" value="-5.6315527 , 1.5151787 , -6.621997"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Pallete/palette.j3o"/>
+        </attvalues>
+        <viz:position x="-563.1553" y="151.51787" z="-662.1997"/>
+      </node>
+      <node id="27" label="RF_part1.j3o_27">
+        <attvalues>
+          <attvalue for="0" value="-30.99508 , -5.9604645E-6 , -23.07528"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-3099.508" y="-5.9604645E-4" z="-2307.5278"/>
+      </node>
+      <node id="72" label="RF_part4.j3o_72">
+        <attvalues>
+          <attvalue for="0" value="-6.2383995 , 5.722046E-6 , -15.991545"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part4.j3o"/>
+        </attvalues>
+        <viz:position x="-623.83997" y="5.722046E-4" z="-1599.1544"/>
+      </node>
+      <node id="33" label="RF_part1.j3o_33">
+        <attvalues>
+          <attvalue for="0" value="-24.462212 , -3.0994415E-6 , -23.096457"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-2446.2212" y="-3.0994415E-4" z="-2309.6458"/>
+      </node>
+      <node id="60" label="palette.j3o_60">
+        <attvalues>
+          <attvalue for="0" value="-0.88874435 , 1.5151796 , -1.3405619"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Pallete/palette.j3o"/>
+        </attvalues>
+        <viz:position x="-88.874435" y="151.51796" z="-134.05618"/>
+      </node>
+      <node id="35" label="RF_part1.j3o_35">
+        <attvalues>
+          <attvalue for="0" value="-41.166172 , -9.298325E-6 , -24.7319"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-4116.617" y="-9.2983246E-4" z="-2473.19"/>
+      </node>
+      <node id="18" label="regal_RBG.j3o_18">
+        <attvalues>
+          <attvalue for="0" value="-22.059797 , 1.335144E-5 , -3.942275"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-2205.9797" y="0.001335144" z="-394.2275"/>
+      </node>
+      <node id="80" label="RF_pallete.j3o_80">
+        <attvalues>
+          <attvalue for="0" value="12.9426565 , 0.0024785995 , -23.818432"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Rollenfoerderer_pallete/RF_pallete.j3o"/>
+        </attvalues>
+        <viz:position x="1294.2656" y="0.24785995" z="-2381.8433"/>
+      </node>
+      <node id="57" label="RF_pallete.j3o_57">
+        <attvalues>
+          <attvalue for="0" value="-5.3635807 , 0.0024766922 , -4.845628"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Rollenfoerderer_pallete/RF_pallete.j3o"/>
+        </attvalues>
+        <viz:position x="-536.3581" y="0.24766922" z="-484.56277"/>
+      </node>
+      <node id="67" label="RF_part4.j3o_67">
+        <attvalues>
+          <attvalue for="0" value="-0.17202473 , 3.8146973E-6 , -31.872162"/>
+          <attvalue for="1" value="0.0 , -90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part4.j3o"/>
+        </attvalues>
+        <viz:position x="-17.202473" y="3.8146973E-4" z="-3187.2163"/>
+      </node>
+      <node id="22" label="RF_part1.j3o_22">
+        <attvalues>
+          <attvalue for="0" value="-42.35606 , -6.67572E-6 , -23.048811"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-4235.606" y="-6.67572E-4" z="-2304.881"/>
+      </node>
+      <node id="16" label="regal_RBG.j3o_16">
+        <attvalues>
+          <attvalue for="0" value="-27.879675 , 7.6293945E-6 , 14.80826"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-2787.9675" y="7.6293945E-4" z="1480.826"/>
+      </node>
+      <node id="73" label="RF_part4.j3o_73">
+        <attvalues>
+          <attvalue for="0" value="-0.2931652 , 9.536743E-7 , -15.981834"/>
+          <attvalue for="1" value="-0.0 , -179.99998 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part4.j3o"/>
+        </attvalues>
+        <viz:position x="-29.31652" y="9.536743E-5" z="-1598.1835"/>
+      </node>
+      <node id="79" label="kuka_robot.j3o_79">
+        <attvalues>
+          <attvalue for="0" value="-3.5758286 , 0.0 , -10.924896"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/KUKA_Robot/kuka_robot.j3o"/>
+        </attvalues>
+        <viz:position x="-357.58286" y="0.0" z="-1092.4896"/>
+      </node>
+      <node id="56" label="RF_part1.j3o_56">
+        <attvalues>
+          <attvalue for="0" value="-6.8043385 , 2.026558E-6 , -23.359383"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/RollenFoerderer_FLW/RF_part1.j3o"/>
+        </attvalues>
+        <viz:position x="-680.43384" y="2.0265579E-4" z="-2335.9382"/>
+      </node>
+      <node id="10" label="regal_RBG.j3o_10">
+        <attvalues>
+          <attvalue for="0" value="-27.930515 , -3.8146973E-6 , 21.437832"/>
+          <attvalue for="1" value="0.0 , 90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Regal_RBG/regal_RBG.j3o"/>
+        </attvalues>
+        <viz:position x="-2793.0515" y="-3.8146973E-4" z="2143.7832"/>
+      </node>
+    </nodes>
+  </graph>
+</gexf>

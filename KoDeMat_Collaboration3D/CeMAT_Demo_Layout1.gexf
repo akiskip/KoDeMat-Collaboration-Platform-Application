@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+  <meta lastmodifieddate="2014-06-16">
+    <creator>KoDeMat.edu</creator>
+    <description>A test network for KoDeMat </description>
+  </meta>
+  <graph defaultedgetype="undirected" idtype="string" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="translation" type="string"/>
+      <attribute id="1" title="rotation" type="string"/>
+      <attribute id="2" title="scale" type="string"/>
+      <attribute id="3" title="type" type="string"/>
+      <attribute id="4" title="model" type="string"/>
+    </attributes>
+    <nodes count="5">
+      <node id="4" label="palette.j3o_4">
+        <attvalues>
+          <attvalue for="0" value="-14.67688 , 1.6548471 , -20.459093"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Pallete/palette.j3o"/>
+        </attvalues>
+        <viz:position x="-1467.688" y="165.48471" z="-2045.9093"/>
+      </node>
+      <node id="3" label="EEA_FLW.j3o_3">
+        <attvalues>
+          <attvalue for="0" value="5.579703 , 1.7166138E-5 , -23.643429"/>
+          <attvalue for="1" value="0.0 , -90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/EEA_FLW/EEA_FLW.j3o"/>
+        </attvalues>
+        <viz:position x="557.9703" y="0.0017166138" z="-2364.3428"/>
+      </node>
+      <node id="1" label="stapler.j3o_1">
+        <attvalues>
+          <attvalue for="0" value="-2.0970027 , -0.06773803 , 6.0269203"/>
+          <attvalue for="1" value="0.0 , -90.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Stapler/stapler.j3o"/>
+        </attvalues>
+        <viz:position x="-209.70027" y="-6.7738028" z="602.692"/>
+      </node>
+      <node id="0" label="boden.j3o_0">
+        <attvalues>
+          <attvalue for="0" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Boden/boden.j3o"/>
+        </attvalues>
+        <viz:position x="0.0" y="0.0" z="0.0"/>
+      </node>
+      <node id="2" label="RF_pallete.j3o_2">
+        <attvalues>
+          <attvalue for="0" value="-14.257753 , 0.0024633408 , -23.772865"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="1.0 , 1.0 , 1.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="CeMAT_Assets/Rollenfoerderer_pallete/RF_pallete.j3o"/>
+        </attvalues>
+        <viz:position x="-1425.7754" y="0.24633408" z="-2377.2866"/>
+      </node>
+    </nodes>
+  </graph>
+</gexf>

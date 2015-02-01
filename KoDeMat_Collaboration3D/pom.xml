@@ -149,9 +149,9 @@
       <version>1.9.0</version>
     </dependency>
     <dependency>
-      <groupId>com.jme3</groupId>
+      <groupId>net.sf.sociaal</groupId>
       <artifactId>eventbus</artifactId>
-      <version>3.0.0.20120512-SNAPSHOT</version>
+      <version>3.0.0.20130526</version>
     </dependency>
   </dependencies>
 </project>
