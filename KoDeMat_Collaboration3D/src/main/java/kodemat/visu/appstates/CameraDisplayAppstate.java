@@ -58,7 +58,7 @@ if(timeCount>=time){
     private void createCamera(String userId) {
 
      cameraNode = helper.createComponent("camera_"+ userId);
-            cameraNode.setType(new VisuType(VisuType.MODEL, "CeMAT_Assets/Pallete/palette.j3o"));
+            cameraNode.setType(new VisuType(VisuType.MODEL, "CeMAT_Assets/Camera/camerauser.j3o"));
             cameraNode.setTranslation(new VisuVector3f(0f,0f,0f));
     }
 }
