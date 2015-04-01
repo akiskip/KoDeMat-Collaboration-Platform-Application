@@ -50,14 +50,16 @@ public class CameraDisplayAppstate extends AbstractAppState  {
 
 if(timeCount>=time){
      VisuVector3f camPos = new VisuVector3f(cam.getLocation().x,cam.getLocation().y,cam.getLocation().z);
-//       helper.getComponent("camera_"+ userId).setTranslation(camPos);
+     helper.getComponent("camera_"+ userId).setTranslation(camPos);
       System.out.println("Camera pos x "+camPos.x+"y "+camPos.y);
        timeCount= 0f;
 }
     }
     private void createCamera(String userId) {
 
-     cameraNode = helper.createComponent("camera_"+ userId);
+        System.out.println("Created camera with userid "+userId);
+        
+            cameraNode = helper.createComponent("camera_"+ userId);
             cameraNode.setType(new VisuType(VisuType.MODEL, "CeMAT_Assets/Camera/camerauser.j3o"));
             cameraNode.setTranslation(new VisuVector3f(0f,0f,0f));
     }
