@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+  <meta lastmodifieddate="2014-08-26">
+    <creator>KoDeMat.edu</creator>
+    <description>A test network for KoDeMat </description>
+  </meta>
+  <graph defaultedgetype="undırected" idtype="strıng" mode="statıc">
+    <attributes class="node" mode="statıc">
+      <attribute id="0" title="translation" type="strıng"/>
+      <attribute id="1" title="rotation" type="strıng"/>
+      <attribute id="2" title="scale" type="strıng"/>
+      <attribute id="3" title="type" type="strıng"/>
+      <attribute id="4" title="model" type="strıng"/>
+    </attributes>
+    <nodes count="2">
+      <node id="0" label="boden.j3o_Model ">
+        <attvalues>
+          <attvalue for="0" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="/CeMAT_Assets/Boden/boden.j3o"/>
+        </attvalues>
+        <viz:position x="0.0" y="0.0" z="0.0"/>
+      </node>
+      <node id="1" label="ehb.j3o_Model ">
+        <attvalues>
+          <attvalue for="0" value="10.705777 , -0.019721985 , -3.1243305"/>
+          <attvalue for="1" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="2" value="0.0 , 0.0 , 0.0"/>
+          <attvalue for="3" value="Model"/>
+          <attvalue for="4" value="/CeMAT_Assets/EHB/ehb.j3o"/>
+        </attvalues>
+        <viz:position x="1070.5778" y="-1.9721985" z="-312.43304"/>
+      </node>
+    </nodes>
+  </graph>
+</gexf>

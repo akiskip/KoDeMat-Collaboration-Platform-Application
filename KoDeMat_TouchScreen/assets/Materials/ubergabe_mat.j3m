@@ -1,0 +1,10 @@
+Material testMaterial : Common/MatDefs/Misc/ColoredTextured.j3md {
+     MaterialParameters {
+        Color : 1.0 0.8 0.2 1.0
+        ColorMap : Others/note.png
+     }
+    AdditionalRenderState {
+      AlphaTestFalloff 0.0
+      FaceCull Front
+    }
+}

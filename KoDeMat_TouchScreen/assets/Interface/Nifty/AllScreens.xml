@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty>
+    <useStyles filename="nifty-default-styles.xml" />
+    <useControls filename="nifty-default-controls.xml" />
+    <screen id="help" controller="kodemat.visu.appstates.NiftyGuiAppState">
+        <layer id="layer" backgroundColor="#0000" childLayout="center">
+            <panel id="panel" height="90%" width="90%" align="center" valign="center" backgroundColor="#D8D8D8" childLayout="horizontal" visibleToMouse="true">
+                <interact onClick="quit()"/>
+                <effect>
+                    <!--                    <onStartScreen name="fade" length="200" startDelay="0" inherit="true"/>-->
+                    <onStartScreen name="border" color="#000f" length="0" startDelay="0" neverStopRendering="true"/>
+                    <!--          <onStartScreen name="move" mode="in" direction="top" length="300" startDelay="0" inherit="true"/>
+                    <onEndScreen name="move" mode="out" direction="bottom" length="300" startDelay="0" inherit="true"/>
+                    <onHover name="pulsate" scaleFactor="0.008" startColor="#f600" endColor="#ffff" post="true"/>-->
+                </effect>
+                <panel id="spacing_horizontal" heigt="100%" width="10" align="left" valign="top"/>
+                <panel id="content_horizontal" heigt="100%" width="*" align="left" valign="top" childLayout="vertical">
+                    <panel id="spacing_vertical" height="10"  align="left" valign="top"/>
+                    <text text="APPLICATION CONTROLS"  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text=""  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press F10 to quit the application"  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press G for starting the client-server connection" font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text=""  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press F2 to show/hide connection information-"  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press F3 to show/hide toolbar"  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text=""  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press F1 to show this screen. Press F1 again to hide."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press F5 to framerate and 3D model infromation."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text=""  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="CAMERA CONTROLS"  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text=""  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Use MOUSE + RIGHT MOUSE BUTTON to rotate camera around focus."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Use LEFT CONTROL + MOUSE + RIGHT MOUSE BUTTON to move camera focus"  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Use LEFT CONTROL + LEFT DOUBLECLICK to move focus to mouse pointer."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Use LEFT DOUBLECLICK to position cursor at mouse pointer."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Use the SCROLLWHEEL to change the zoom level."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text=""  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Use WASD keys to move the camera focus"  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press F to show the camera focus."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press Q to raise the camera focus."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press Y to lower the camera focus."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text=""  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press E to save camera view."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press R to load camera view."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text=""  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="MODIFICATION CONTROLS"  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text=""  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press U for local undo."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press I for local redo."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press O to activate or deactivate the global undo/redo buttons."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text=""  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="Press ctrl and left-click on an object to select it."  font="aurulent-sans-16.fnt" color="#000f"  />
+                    <text text="To add an edge point, double-click on where it must be added, and select 'Set edge point'"  font="aurulent-sans-16.fnt" color="#000f"  />
+                    
+                </panel>
+            </panel>
+        </layer>
+    </screen>
+    <screen id="connection-screen" controller="kodemat.visu.appstates.NiftyConnectAppState">
+        <layer id="layer-connect" childLayout="center">
+            <panel id="panel-user-data" height="300px" width="350px" align="center" valign="center" style="nifty-panel" childLayout="vertical" visible="true">
+                <effect>
+                    <onStartScreen  name="fade" startColor="#0000" endColor="#000f" length="1500"/>
+                    <onEndScreen name="move" mode="out" direction="bottom" length="300" startDelay="0" inherit="true"/>
+                </effect>
+                <text style="nifty-label" text="Username: " valign="center"/>
+                <control id="username_text" name="textfield" align="center" valign="center" width="60%">
+                    <interact onEnter="connect()"/>
+                </control>
+                <text style="nifty-label" text="Password: " valign="center"/>
+                <control id="password_text" name="textfield" align="center" valign="center" width="60%" passwordChar="*">
+                    <interact onEnter="connect()"/>
+                </control>
+                <text style="nifty-label" text="Server address: " valign="center"/>
+                <control id="server_addr_text" name="textfield" align="center" valign="center" width="60%">
+                    <interact onEnter="connect()"/>
+                </control>
+                <text style="nifty-label" text="Company: " valign="center"/>
+                <control id="company_text" name="textfield" align="center" valign="center" width="60%">
+                    <interact onEnter="connect()"/>
+                </control>
+                <text style="nifty-label" text="Position: " valign="center"/>
+                <control id="position_text" name="textfield" align="center" valign="center" width="60%">
+                    <interact onEnter="connect()"/>
+                </control>
+
+                <control id="connect_button" name="button" label="Connect" align="center">
+                    <interact onClick="connect()"/>
+                    <effect>
+                        <onStartScreen name="fade" startColor="#0000" endColor="#000f" length="1500" startDelay="250"/>
+                    </effect>
+                </control>
+            </panel>
+        </layer>
+    </screen>
+
+    <screen id="hidden" controller="kodemat.visu.appstates.NiftyGuiAppState">
+        <layer id="layer1" backgroundColor="#0000" childLayout="center" >
+            <panel id="connection-panel-background" width="1" height="1" align="left" valign="top" backgroundColor="#000f" childLayout="vertical" visibleToMouse="false" ><!--visible="false" >-->
+                <effect>
+                    <onStartScreen name="border" color="#D8D8D8" length="0" startDelay="0" neverStopRendering="true"/>
+                </effect>
+            </panel>
+            
+        </layer>
+        <layer id="layer" backgroundColor="#0000" childLayout="center"><!--visible="false" >-->
+            
+            <panel id="connection-panel" align="left" valign="top" backgroundColor="#0000" childLayout="vertical" visibleToMouse="false" padding="5">
+                <control  id="client-server-status" name="label" align="left"  font="aurulent-sans-16.fnt" color="#ffff"  text="" />
+                <control  id="client-number" name="label" font="aurulent-sans-16.fnt" color="#ffff" align="left" text="" />
+                <control  id="client-events" name="label" font="aurulent-sans-16.fnt" color="#ffff" align="left" text="" />
+                <control  id="client-help-and-command-queue-info" name="label" font="aurulent-sans-16.fnt" color="#ffff" align="left" text="Press F1 for help"/>
+            </panel>
+        </layer>
+  
+        <layer id="UR-buttons-layer" backgroundColor="#0000" childLayout="center">
+            
+            <panel id="UR-panel"  align="right" valign="top" backgroundColor="#0000" childLayout="vertical" visibleToMouse="false" padding="5">
+ 
+            </panel>
+        </layer>
+        <layer id="toolbar-layer" backgroundColor="#0000" childLayout="center">
+            <panel id="toolbar-panel" width="550" height="85" align="left" valign="bottom" backgroundColor="#C0C0C0" childLayout="horizontal" visibleToMouse="true" visible="true" >
+                <effect>
+                    <onShow name="border" color="#C0C0C0" length="0" startDelay="0" neverStopRendering="true"/>
+                    <onStartScreen name="border" color="#C0C0C0" length="0" startDelay="0" neverStopRendering="true"/>
+                </effect>
+            </panel>
+        </layer>       
+        <layer id="toolbar-import-layer" backgroundColor="#0000" childLayout="center">
+            <panel id="toolbar-import-panel" width="70" height="550" align="right" backgroundColor="#C0C0C0" childLayout="horizontal" visibleToMouse="true" visible="true" >
+                <effect>
+                    <onShow name="border" color="#C0C0C0" length="0" startDelay="0" neverStopRendering="true"/>
+                    <onStartScreen name="border" color="#C0C0C0" length="0" startDelay="0" neverStopRendering="true"/>
+                </effect>              
+            </panel>    
+        </layer> 
+        <layer id="toolbar-import-layer2" backgroundColor="#0000" childLayout="absolute">      
+            <panel id="pop-up-importEHB" width="70" height="200" backgroundColor="#C0C0C0" childLayout="center" visibleToMouse="true" drop="false" x="140" y="144" visible="false">
+            </panel>
+            <panel id="pop-up-importFLW" width="70" height="400" backgroundColor="#C0C0C0" childLayout="center" visibleToMouse="true" visible="false">
+            </panel>   
+        </layer>
+        <layer id="view-cube-layer" backgroundColor="#0000" childLayout="absolute">
+            <panel id="view-cube-panel" width="100" height="100" childLayout="center" visibleToMouse="true" visible="true">                
+            </panel>
+        </layer>
+        <layer id="toolbar-modification-layer" backgroundColor="#0000" childLayout="absolute">
+                 <control childLayout="horizontal" hideOnClose="true" drop="false" height="170" width="400" id="editModelWindow" title="Edit Object" x="140" y="144" visible="false">
+                    <panel id="composite-panel" width="100%" height="100%" align="left" valign="top" backgroundColor="#0000" childLayout="horizontal"  visible="true" > 
+                     <panel id="toolbar-modification-panel" width="60%" height="100%" align="left" valign="bottom" backgroundColor="#0000" childLayout="vertical"  visible="true" > 
+                <panel id="label-panel" width="100%" height="10%" align="left" valign="top" backgroundColor="#0000" childLayout="horizontal" visibleToMouse="true" visible="true" >
+                    <control  id="selected-object" name="label" font="aurulent-sans-16.fnt" color="#ffff" align="left" text="" />
+                    <control  id="comment" name="label" font="aurulent-sans-16.fnt" color="#ffff" align="left" text="" />
+                </panel>
+            </panel>                
+                </panel>
+      </control>
+      <panel id="drag-modification-panel" width="100" height="100" align="left" valign="top" backgroundColor="#0000" childLayout="vertical"  visible="false" > 
+                </panel>
+        </layer>
+        <layer id="move-layer" backgroundColor="#0000" childLayout="absolute">
+            <panel id="move-panel" width="100" height="100" childLayout="center" visibleToMouse="true" visible="false">                
+            </panel>
+        </layer>
+        <layer id="new-note-layer" backgroundColor="#0000" childLayout="center">
+            <panel id="new-note-panel" width="300" height="140" align="center" valign="center" backgroundColor="#000f" childLayout="vertical" visibleToMouse="true" visible="false" >
+                <effect>
+                    <onShow name="border" color="#D8D8D8" length="0" startDelay="0" neverStopRendering="true"/>
+                    <onStartScreen name="border" color="#D8D8D8" length="0" startDelay="0" neverStopRendering="true"/>
+                </effect>
+            </panel>
+        </layer>
+        <layer id="notes-history-layer" backgroundColor="#0000" childLayout="vertical" alight="right">
+            <panel id="show-history-panel" width="350px" align="right" valign="center" backgroundColor="#0000" childLayout="vertical" visibleToMouse="true" visible="false" >
+                <panel id="history-panel" align="center" padding="5px" valign="center" backgroundColor="#000f" childLayout="vertical" visibleToMouse="true" visible="false" >
+                    <control id="notes-list" name="listBox" horizontal="false" displayItems="5" height="70%" childLayout="vertical" visibleToMouse="true"/>
+                </panel>
+            </panel>
+        </layer>
+        <layer id="drag-layer" backgroundColor="#0000" childLayout="horizontal">
+        </layer>
+        <!--LAYER FOR LAYOUT CLIENT FOR AGENTS -->
+        <layer id="auftrag-layer" backgroundColor="#0000" childLayout="center">
+            <panel id="auftrag-panel" width="100%" height="130" align="left" valign="bottom" backgroundColor="#000f" childLayout="horizontal" visibleToMouse="true" visible="false" >
+                <effect>
+                    <onShow name="border" color="#D8D8D8" length="0" startDelay="0" neverStopRendering="true"/>
+                    <onStartScreen name="border" color="#D8D8D8" length="0" startDelay="0" neverStopRendering="true"/>
+                </effect>
+
+            </panel>
+        </layer>
+    </screen>
+</nifty>
